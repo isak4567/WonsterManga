@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+// Font
+
+
+// Variables
+$color1: whitesmoke;
+
+
+
+body {
+    background-color: $color1;
+}
+
+header, .Tendencia {
+    background-color: rgb(190, 190, 190);
+}
+
+header {
+    width: 100%;
+    justify-content: center;
+}
+
+.Navegador {
+    width: 85%;
+    justify-content: flex-end;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.588);
+    ul {
+        margin: 0px;
+        list-style: none;
+        li { 
+            padding: 0px 10px;
+            margin: 50px 40px 5px 10px;
+        }
+        li a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.FormularioBusqueda {
+    input {
+        border-radius: 13px;
+        padding: 5px 10px;
+        border-style: none;
+        width: 280px;
+        margin: 35px 40px 5px 10px;
+    }
+}
+
+.Perfil {
+    position: absolute;
+    right: 50px;
+    top: 34px;
+    img {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.contenedorTendencia {
+    width: 60%;
+    margin-bottom: 60px;
+}
+
+.Tendencia  h2 {
+    align-self: flex-start;
+    margin: 20px 0 30px 0;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+
+.imagenTendencia img {
+    height: 340px;
+    margin-right: 25px;
+}
+
+.tipoManga, .generos li {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.generos {
+    padding: 0;
+    list-style: none;
+    li {margin-right: 10px;}
+}
+
+.listaAgregados {
+    width: 85%;
+    margin: auto;
+    h2 {
+        margin: 40px 0 20px 0;
+        font-size: 1.5em;
+    }
+}
+
+.serieAgregada {
+    width: 30%;
+    img {
+        height: 220px;
+    }
+}
+
+.serieAgregadaDatos {
+    margin-left: 10px;
+    
+}
